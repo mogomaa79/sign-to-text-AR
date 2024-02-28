@@ -2,7 +2,7 @@
 
 
 import models.t
-import data
+import dataset
 import utils
 
 
@@ -10,5 +10,5 @@ def test_build():
     """Make sure pytest is working."""
     assert True
     assert utils
-    assert data
+    assert dataset
     assert models.t.X == 23
