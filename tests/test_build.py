@@ -1,13 +1,12 @@
 """Test module for making sure model package is working"""
 
-import firstpkg
-import secondpkg
-from firstpkg.t import x
+import sign_to_text
+import utils
 
 
 def test_build():
     """Make sure pytest is working."""
     assert True
-    assert firstpkg
-    assert secondpkg
-    assert x == 23
+    assert utils
+    assert sign_to_text
+    assert sign_to_text.x == 23
